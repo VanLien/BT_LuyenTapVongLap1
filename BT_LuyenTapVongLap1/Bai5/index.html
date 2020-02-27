@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TinhTong20SoDauFibonacci</title>
+</head>
+<body>
+<script>
+    let f0=0,f1=1,fn=f0+f1,sum=0;
+    for (i=0;i<20;i++)
+    {
+        fn=f0+f1;
+        f0=f1;
+        f1=fn;
+        sum+=fn;
+    }
+    document.write("Tổng 20 Ripo Đầu Tiên ="+sum);
+
+    </script>
+</body>
+</html>
